@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 /* Global */
 * {
@@ -143,4 +143,32 @@ body {
 .card p {
   font-size: 17px;
   text-align: center;
+}
+
+/* Quote */
+.quote {
+  height: 470px;
+  background-color: #e5e7eb;
+}
+
+.quote .flex {
+  width: 820px;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.quote p {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 24px;
+}
+
+.quote h4 {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+  margin-right: 24px;
 }
