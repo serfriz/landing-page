@@ -20,11 +20,25 @@ body {
   display: flex;
 }
 
+.btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
 /* Navbar */
 .navbar {
   height: 64px;
   background-color: #1f2937;
-  color: #fff;
+  color: #f9faf8;
 }
 
 .navbar .container {
@@ -50,4 +64,40 @@ body {
 
 .navbar .logo:hover {
   cursor: pointer;
+}
+
+/* Showcase */
+.showcase {
+  height: 470px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.showcase .container {
+  height: 100%;
+  align-items: center;
+  gap: 16px;
+}
+
+.showcase img {
+  background-color: #787878;
+  width: 50%;
+  height: 250px;
+}
+
+.showcase-text {
+  flex: 1;
+}
+
+.showcase-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+
+.showcase-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 16px;
 }
