@@ -41,7 +41,7 @@ body {
   color: #f9faf8;
 }
 
-.navbar .container {
+.navbar .flex {
   height: 100%;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@ body {
   color: #f9faf8;
 }
 
-.showcase .container {
+.showcase .flex {
   height: 100%;
   align-items: center;
   gap: 16px;
@@ -95,9 +95,52 @@ body {
   color: #f9faf8;
 }
 
-
 .showcase-text p {
   font-size: 18px;
   color: #e5e7eb;
   margin-bottom: 16px;
+}
+
+/* Information */
+.information {
+  height: 500px;
+}
+
+.information .flex {
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.card-container {
+  width: 820px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 165px;
+}
+
+.card img {
+  width: 100%;
+  height: 165px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 17px;
+  text-align: center;
 }
